@@ -1,0 +1,76 @@
+.header
+	background-color: #262930
+	padding-top: 25px
+	padding-bottom: 25px
+
+	@include min-medium
+		background-color: #262930
+		padding-top: 55px
+		padding-bottom: 55px 
+
+
+.icon-envelope
+	display: inline-block
+	position: absolute
+	top: -15px
+	right: 15px
+	background-color: white
+	border-radius: 25px
+	transition: background-position .2s
+
+.avatar
+	width: 105px
+	height: 105px
+
+	@include small
+		margin: 0 auto
+		margin-bottom: 30px
+
+.infoList
+	text-align: left
+	margin-left: -55px
+	line-height: 24px
+
+	li
+		margin: 5px 0
+
+	.icon
+		display: inline-block
+		position: relative
+		top: 3px
+		width: 16px
+		height: 16px
+		margin-right: 10px
+
+	@include medium
+		margin-left: -20px
+
+	@include small
+		margin-left: 0
+
+	@include extra-small
+		text-align: center
+
+.smartQuote
+	margin-top: 10px
+	padding-top: 40px
+	padding-bottom: 40px
+
+.importantLinks
+	margin-top: 30px
+
+	.icon-linkedin
+		float: left
+
+	a
+		display: inline-block
+		height: 50px
+
+		&:hover
+			span
+				text-decoration: underline
+
+		span
+			float: left
+			margin-left: 15px
+			@include vertical-center

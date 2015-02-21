@@ -1,0 +1,61 @@
+.project 
+
+	a
+		font-size: 20px
+		line-height: 20px
+		font-weight: 400
+		text-transform: uppercase
+		display: block
+
+		@include small
+			text-align: center
+
+	.description
+		margin-top: 15px
+
+	.image
+
+		@include extra-small
+			padding: 0
+
+
+		.eubarozvrh
+			background: url('../img/projects/eubarozvrh.png') no-repeat
+			@include retina('../img/projects/eubarozvrh@2x.png', 100%, 100%)
+
+		.andrea
+			background: url('../img/projects/andrea.png') no-repeat
+			@include retina('../img/projects/andrea@2x.png', 100%, 100%)
+
+		.iosapp
+			background: url('../img/projects/iosapp.png') no-repeat
+			@include retina('../img/projects/iosapp@2x.png', 100%, 100%)
+
+		.invlasy
+			background: url('../img/projects/invlasy.png') no-repeat
+			@include retina('../img/projects/invlasy@2x.png', 100%, 100%)
+
+		.anita
+			background: url('../img/projects/anita.png') no-repeat
+			@include retina('../img/projects/anita@2x.png', 100%, 100%)
+
+		.chuj
+			background: url('../img/projects/chuj.png') no-repeat
+			@include retina('../img/projects/chuj@2x.png', 100%, 100%)
+
+		.swi
+			background: url('../img/projects/swi.png') no-repeat
+			@include retina('../img/projects/swi@2x.png', 100%, 100%)
+
+		& > div
+			width: 350px
+			height: 230px
+
+			@include extra-small
+				width: 260px
+				height: 170px
+
+			@include small		
+				margin: 0 auto
+				margin-bottom: 40px
+

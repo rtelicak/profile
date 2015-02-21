@@ -1,0 +1,59 @@
+*
+	box-sizing: border-box
+
+	*:before, *:after
+		box-sizing: border-box
+
+.hidden
+	display: none
+ul
+	padding: 0
+	li
+		list-style: none
+
+a
+	color: $brand-blue
+	text-decoration: none
+	&:hover
+		text-decoration: underline
+
+html
+
+body
+	font-family: 'Open Sans', sans-serif
+	font-weight: 300
+	font-size: 15px
+	line-height: 25px
+	color: #999999
+	background-color: #ffffff
+
+h1, h2
+	margin: 0
+	font-weight: normal
+
+h1
+	color: #fff
+
+	@include extra-small
+		font-size: 20px
+
+h2
+	font-size: 16px
+	color: #262930
+	text-transform: capitalize
+	margin: 35px 0
+
+	@include min-medium
+		margin: 75px 0
+
+p
+	margin: 10px 0
+	text-align: justify
+
+section
+	padding-bottom: 60px
+	&:nth-child(2n + 1)
+		background-color: #f8f9fb
+
+	@include min-medium
+		padding-bottom: 140px

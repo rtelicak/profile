@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Roman Telicak's personal page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:rtelicak/portfolio.git"
+  },
+  "keywords": [
+    "Roman",
+    "Telicak"
+  ],
+  "author": "Roman Telicak",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.2.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-filter": "^2.0.2",
+    "gulp-minify-css": "^0.4.6",
+    "gulp-sass": "^1.3.3",
+    "gulp-sourcemaps": "^1.3.0",
+    "gulp-util": "^3.0.3"
+  }
+}
